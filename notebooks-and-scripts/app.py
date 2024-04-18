@@ -14,7 +14,7 @@ rcParams['axes.grid'] = False
 plt.style.use('seaborn-v0_8-dark-palette')
 
 from matplotlib import font_manager 
-locations = './../styles/Newsreader'
+locations = './styles/Newsreader'
 font_files = font_manager.findSystemFonts(fontpaths=locations)
 print(locations)
 print(font_files[0])
