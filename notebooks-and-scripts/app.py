@@ -84,7 +84,7 @@ def main():
     ax.xaxis.set_tick_params(length=0, labeltop=False, labelbottom=True)
     for key in 'left', 'right', 'top':
         ax.spines[key].set_visible(False)
-    ax.set_title('Codnitional Expectation Function', size=16, loc='center', pad=20)
+    ax.set_title('Conditional Expectation Function', size=16, loc='center', pad=20)
     ax.text(0., 1.02, s='Value', transform=ax.transAxes, size=14)
     ax.yaxis.set_tick_params(length=0)
     ax.yaxis.grid(True, color='white', linewidth=2)
